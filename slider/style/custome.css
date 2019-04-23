@@ -1,0 +1,119 @@
+
+
+.industries-section {
+    background: url(img/platforms/bg-industries.jpg) no-repeat 50% fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+.divider-t-100 {
+    padding-top: 100px;
+}
+
+.divider-b-75 {
+    padding-top: 94px;
+    padding-bottom: 75px;
+}
+.container {
+    padding: 0 30px;
+    margin: 0 auto;
+    padding: 0 40px;
+    height: 100%;
+    width: 100%;
+}
+.grid--column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.grid--center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+.grid {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: relative;
+}
+.title--medium, h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.title--uppercase, h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.title--black {
+    color: #323232;
+}
+.title {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    color: #fff;
+    text-transform: uppercase;
+}
+.snakepit {
+    padding-bottom: 100px;
+    overflow: hidden;
+    position: relative;
+}
+.snakepit__phone {
+    top: 46px;
+}
+.owl-carousel.owl-loaded {
+    display: block;
+}
+
+
+
+
+.snakepit__list {
+    display: none;
+    background-size: 30%;
+    margin: 0;
+    padding: 0;
+    background-image: none;
+    opacity: 0;
+    -webkit-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+    -js-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    margin: -10px -50px;
+    padding: 38px 0;
+    width: auto;
+}
+.owl-carousel {
+    display: none;
+    width: 100%;
+    z-index: 1;
+}
+.owl-carousel, .owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}

@@ -1,0 +1,91 @@
+Class BoardMarker{
+    string name;
+    String color;
+    string material;
+    String shape;
+    float width;
+    float height;
+    String stoper;
+    String cap;
+    Bolean nibstate=false;
+
+   void insert(String name,String color,String material,String shape,String stoper,String cap) {
+      system.out.println("the marker is" + color+""+material+""+shape+""+stoper+""+cap+""name);
+   }
+   void Display(){
+       system.out.println("board marker have these properties");
+   }
+   Void Write( String nib){
+     if(nibstate==true){
+     system.out.println("The Marker is writing");
+     }
+     else{
+         system.out.println("The Marker is stopeed");
+     }
+   }
+}
+
+Class stoper extend BoardMarker{
+          string name;
+          string color;
+          string shape;
+          string material;
+
+      void insert(String color,String material,String shape,String name) {
+      system.out.println("the marker is" + color+""+material+""+shape+""+name);
+   }
+       void Display(){
+       system.out.println("stoper have these properties");
+   }
+    
+}
+
+Class cap extend BoardMarker{
+          string name;
+          string color;
+          string shape;
+          string material;
+
+      void insert(String color,String material,String shape,String name) {
+      system.out.println("the marker is" + color+""+material+""+shape+""+name);
+   }
+       void Display(){
+       system.out.println("cap have these properties");
+   }
+    
+}
+Class Bodycase extend BoardMarker{
+   String color;
+   String material;
+   String shape;
+     void insert(String color,String material,String shape,String name) {
+      system.out.println("the marker is" + color+""+material+""+shape);
+   }
+        void Display(){
+       system.out.println("stoper have these properties");
+
+   }
+}
+public class Test  
+{ 
+    public static void main(String args[])  
+    { 
+        BoardMarker bm = new BoardMarker();
+        System.out.println(bm.insert()); 
+        System.out.println(bm.Display()); 
+        System.out.println(bm.Write()); 
+
+        stoper s= new stoper();
+        System.out.println(g.insert()); 
+        System.out.println(g.Display()); 
+
+        cap c= new cap;
+        System.out.println(c.insert()); 
+        System.out.println(c.Display());    
+
+        Bodycase bc = new Bodycase;
+        System.out.println(bc.insert()); 
+        System.out.println(bc.Display()); 
+        
+    } 
+} 

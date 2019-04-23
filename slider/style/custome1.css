@@ -1,0 +1,24 @@
+.col-sm-12 img{
+    margin-left: 200px;
+}
+.container-fluid{
+    background-color: aquamarine;
+}
+.head{
+    color: aliceblue;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.btn-engage{
+    background-color: bisque;
+    color: #4a1a1a;
+    width: 120px;
+    height: 30px;
+    margin-left: 198px;
+    border: 1px solid;
+}
+.section-two{
+    background-color: #b2df0f;
+    height: 600px;
+    text-align: center;
+}
